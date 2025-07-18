@@ -1,15 +1,40 @@
-# Micros## 🎥 Demo Video
+# Micros## 🎥 Demo
 
-Watch the application in action:
+### 🎬 Animated Demo (Coming Soon)
+We're working on creating an animated GIF demo. In the meantime, you can:
 
-<video width="100%" controls>
-  <source src="./demo_video.mp4" type="video/mp4">
-  Your browser does not support the video tag. You can <a href="./demo_video.mp4">download the video</a> instead.
-</video>
+**[📥 Download Full Demo Video](./demo_video.mp4)** (30MB) - Complete walkthrough showing:
+- ⚙️ Configuration setup with Azure and Copilot Studio credentials
+- 🔐 Authentication flow with Microsoft Entra ID
+- 💬 Real-time messaging with Copilot Studio agents
+- 📱 Responsive interface and conversation history
+- 🎯 Suggested actions and adaptive cards
 
-📹 **[Download Demo Video](./demo_video.mp4)** (30MB) - If the video doesn't play above, click to download
+### 📸 Application Screenshots
 
-> **Video**: `demo_video.mp4` - Shows the complete workflow of configuring and using the Microsoft 365 Agent SDK React application, including authentication, message sending, and response handling.ent SDK React Application
+#### Main Interface
+![Main Interface](https://via.placeholder.com/800x600/f8f9fa/343a40?text=Main+Interface+Screenshot+Here)
+
+#### Configuration Modal
+![Configuration Modal](https://via.placeholder.com/600x400/667eea/ffffff?text=Configuration+Modal+Screenshot+Here)
+
+#### Chat Interface in Action
+![Chat Interface](https://via.placeholder.com/800x500/11998e/ffffff?text=Chat+Interface+Screenshot+Here)
+
+### 🔧 How to Convert Video to GIF (Optional)
+
+If you want to create a GIF from the video, you can use these online tools:
+1. **[Convertio](https://convertio.co/mp4-gif/)** - Free online MP4 to GIF converter
+2. **[CloudConvert](https://cloudconvert.com/mp4-to-gif)** - Advanced conversion options
+3. **[EZGIF](https://ezgif.com/video-to-gif)** - Simple video to GIF converter
+
+**Recommended settings for GitHub:**
+- Duration: 30-60 seconds (highlight key features)
+- Size: 800px width maximum
+- Frame rate: 10-15 fps
+- File size: Under 10MB for better loading
+
+> **Note**: Replace the placeholder images above with actual screenshots of your application for better visualization.ent SDK React Application
 
 A React application for testing and interacting with Microsoft 365 Copilot Studio agents using the official Microsoft Agent SDK.
 
