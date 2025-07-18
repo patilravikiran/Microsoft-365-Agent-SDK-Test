@@ -17,7 +17,6 @@ A React application for testing and interacting with Microsoft 365 Copilot Studi
 
 Here's a demonstration of the Microsoft 365 Agent SDK in action:
 ![Demo](demo.gif)
-![Agent SDK Demo](demo.gif)
 
 ## 📋 Prerequisites
 
