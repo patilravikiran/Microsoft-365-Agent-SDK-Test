@@ -99,6 +99,7 @@ Here's a demonstration of the Microsoft 365 Agent SDK in action:
 1. **Navigate to Agent Settings**
 
    - Open your published agent
+   - Go to **"Settings"** → **"Security"** and set Authentication to **"Authenticate with Microsoft"**
    - Go to **"Settings"** → **"Advanced"** → **"Metadata"**
 
 2. **Copy Required Values**
