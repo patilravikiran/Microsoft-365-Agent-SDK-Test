@@ -6,7 +6,6 @@ A React application for testing and interacting with Microsoft 365 Copilot Studi
 
 - **🤖 Agent Integration**: Direct connection to Microsoft Copilot Studio agents
 - **🔐 Enterprise Authentication**: MSAL-based Entra ID authentication with secure token management
-- **📱 Responsive Design**: Modern, mobile-friendly interface with adaptive card rendering
 - **🎨 Adaptive Cards**: Rich card rendering with interactive elements and formatting
 - **📊 Metadata Display**: Detailed response information and debugging capabilities
 - **🔄 Conversation History**: Persistent conversation tracking with timestamps and metadata
