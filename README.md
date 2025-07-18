@@ -7,6 +7,8 @@ Watch the application in action:
   Your browser does not support the video tag. You can <a href="./demo_video.mp4">download the video</a> instead.
 </video>
 
+📹 **[Download Demo Video](./demo_video.mp4)** (30MB) - If the video doesn't play above, click to download
+
 > **Video**: `demo_video.mp4` - Shows the complete workflow of configuring and using the Microsoft 365 Agent SDK React application, including authentication, message sending, and response handling.ent SDK React Application
 
 A React application for testing and interacting with Microsoft 365 Copilot Studio agents using the official Microsoft Agent SDK.
