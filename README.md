@@ -1,4 +1,13 @@
-# Microsoft 365 Agent SDK React Application
+# Micros## 🎥 Demo Video
+
+Watch the application in action:
+
+<video width="100%" controls>
+  <source src="./demo_video.mp4" type="video/mp4">
+  Your browser does not support the video tag. You can <a href="./demo_video.mp4">download the video</a> instead.
+</video>
+
+> **Video**: `demo_video.mp4` - Shows the complete workflow of configuring and using the Microsoft 365 Agent SDK React application, including authentication, message sending, and response handling.ent SDK React Application
 
 A React application for testing and interacting with Microsoft 365 Copilot Studio agents using the official Microsoft Agent SDK.
 
@@ -6,7 +15,19 @@ A React application for testing and interacting with Microsoft 365 Copilot Studi
 
 This React application provides a modern interface for communicating with Microsoft Copilot Studio agents. Built with TypeScript and styled-components, it offers real-time messaging, adaptive card rendering, and comprehensive error handling with enterprise-grade authentication.
 
-## 🌟 Features
+## � Demo Video
+
+Watch the application in action:
+
+https://github.com/user-attachments/assets/your-video-asset-id
+
+> **Note**: To add your video to this README, you'll need to:
+>
+> 1. Upload the video file (`C:\Users\ravikpatil\Desktop\Agent SDK\AgentSDK_Modified.mp4`) to your GitHub repository
+> 2. Or upload it as an asset in a GitHub issue/PR and copy the generated URL
+> 3. Replace the placeholder URL above with the actual video URL
+
+## �🌟 Features
 
 - **🔐 Enterprise Authentication**: MSAL-based Entra ID authentication with secure token management
 - **💬 Real-Time Messaging**: Direct communication with Copilot Studio agents using official Agent SDK
@@ -160,7 +181,6 @@ src/
 └── App.tsx                   # Main application component
 ```
 
-
 ## 📦 Version Compatibility
 
 | Package                                | Version | Notes             |
@@ -253,7 +273,6 @@ npm run type-check # TypeScript type checking
 - **[Microsoft Agent SDK Documentation](https://github.com/microsoft/Agents)**
 - **[Copilot Studio Documentation](https://docs.microsoft.com/en-us/microsoft-copilot-studio/)**
 - **[Entra ID App Registration Guide](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)**
-
 
 ## 🤝 Contributing
 
