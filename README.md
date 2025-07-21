@@ -6,7 +6,6 @@ A React application for testing and interacting with Microsoft 365 Copilot Studi
 
 - **🤖 Agent Integration**: Direct connection to Microsoft Copilot Studio agents
 - **🔐 Enterprise Authentication**: MSAL-based Entra ID authentication with secure token management
-- **📱 Responsive Design**: Modern, mobile-friendly interface with adaptive card rendering
 - **🎨 Adaptive Cards**: Rich card rendering with interactive elements and formatting
 - **📊 Metadata Display**: Detailed response information and debugging capabilities
 - **🔄 Conversation History**: Persistent conversation tracking with timestamps and metadata
@@ -16,8 +15,7 @@ A React application for testing and interacting with Microsoft 365 Copilot Studi
 ## 🎬 Demo
 
 Here's a demonstration of the Microsoft 365 Agent SDK in action:
-
-![Agent SDK Demo](demo.gif)
+![Demo](demo.gif)
 
 ## 📋 Prerequisites
 
@@ -48,7 +46,7 @@ Here's a demonstration of the Microsoft 365 Agent SDK in action:
    - **Name**: `Copilot Studio Client App(Name can be anything)`
    - **Supported account types**: "Accounts in this organizational directory only"
    - **Redirect URI**:
-     - Platform: **Public client/native (mobile & desktop)**
+     - Platform: **Single-page application**
      - URI: `http://localhost:3000`
    - Click **"Register"**
 
@@ -101,6 +99,7 @@ Here's a demonstration of the Microsoft 365 Agent SDK in action:
 1. **Navigate to Agent Settings**
 
    - Open your published agent
+   - Go to **"Settings"** → **"Security"** and set Authentication to **"Authenticate with Microsoft"**
    - Go to **"Settings"** → **"Advanced"** → **"Metadata"**
 
 2. **Copy Required Values**
