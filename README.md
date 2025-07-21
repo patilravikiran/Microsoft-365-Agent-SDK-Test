@@ -46,7 +46,7 @@ Here's a demonstration of the Microsoft 365 Agent SDK in action:
    - **Name**: `Copilot Studio Client App(Name can be anything)`
    - **Supported account types**: "Accounts in this organizational directory only"
    - **Redirect URI**:
-     - Platform: **Public client/native (mobile & desktop)**
+     - Platform: **Single-page application**
      - URI: `http://localhost:3000`
    - Click **"Register"**
 
