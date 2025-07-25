@@ -1,6 +1,6 @@
 # Microsoft 365 Agent SDK React Application
 
-A React application for testing and interacting with Microsoft 365 Copilot Studio agents using the Microsoft Agent SDK.
+A React application for testing and interacting with Copilot Studio agents using the Microsoft Agent SDK.
 
 ## ✨ Features
 
