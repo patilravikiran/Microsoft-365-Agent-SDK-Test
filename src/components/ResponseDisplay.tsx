@@ -474,6 +474,22 @@ const ResponseDisplay: React.FC<ResponseDisplayProps> = ({
                   <MetadataLabel>DURATION</MetadataLabel>
                   <MetadataValue>{response.metadata.duration}ms</MetadataValue>
                 </MetadataItem>
+                {response.metadata.startTime && (
+                  <MetadataItem>
+                    <MetadataLabel>START TIME</MetadataLabel>
+                    <MetadataValue>
+                      {formatTimestamp(response.metadata.startTime)}
+                    </MetadataValue>
+                  </MetadataItem>
+                )}
+                {response.metadata.endTime && (
+                  <MetadataItem>
+                    <MetadataLabel>END TIME</MetadataLabel>
+                    <MetadataValue>
+                      {formatTimestamp(response.metadata.endTime)}
+                    </MetadataValue>
+                  </MetadataItem>
+                )}
                 {response.metadata.tokens && (
                   <MetadataItem>
                     <MetadataLabel>TOKENS</MetadataLabel>

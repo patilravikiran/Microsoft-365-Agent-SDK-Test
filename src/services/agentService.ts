@@ -351,6 +351,10 @@ export class AgentClient {
     message: string,
     continueConversation: boolean = true
   ): Promise<AgentResponse> {
+    // Record start time for duration calculation
+    const startTime = new Date();
+    const startTimeISO = startTime.toISOString();
+
     try {
       const validation = this.validateConfig();
       if (!validation.isValid) {
@@ -366,20 +370,27 @@ export class AgentClient {
         continueConversation
       );
 
+      // Record end time and calculate duration
+      const endTime = new Date();
+      const endTimeISO = endTime.toISOString();
+      const duration = endTime.getTime() - startTime.getTime();
+
       const response: AgentResponse = {
         message:
           agentResponse.text ||
           agentResponse.message ||
           (agentResponse.hasAdaptiveCards ? "" : "No response from agent"),
         success: true,
-        timestamp: new Date().toISOString(),
+        timestamp: endTimeISO, // Use end time as the response timestamp
         conversationId: agentResponse.conversationId || agentResponse.id || "",
         metadata: {
           botId: this.config.botIdentifier,
           environmentId: this.config.environmentId,
           authenticated: true,
           agentResponseId: agentResponse.id,
-          duration: agentResponse.metadata?.duration || 0,
+          duration: duration, // Calculated duration in milliseconds
+          startTime: startTimeISO,
+          endTime: endTimeISO,
           conversationId: agentResponse.conversationId,
           suggestedActions: agentResponse.suggestedActions || [],
           adaptiveCards: agentResponse.adaptiveCards || [],
@@ -393,12 +404,20 @@ export class AgentClient {
 
       return response;
     } catch (error: any) {
+      // Record end time for error cases as well
+      const endTime = new Date();
+      const endTimeISO = endTime.toISOString();
+      const duration = endTime.getTime() - startTime.getTime();
+
       return {
         message: `API Error: ${error.message}`,
         success: false,
-        timestamp: new Date().toISOString(),
+        timestamp: endTimeISO,
         conversationId: "error",
         metadata: {
+          duration: duration,
+          startTime: startTimeISO,
+          endTime: endTimeISO,
           error: error.message,
           botId: this.config.botIdentifier,
           environmentId: this.config.environmentId,

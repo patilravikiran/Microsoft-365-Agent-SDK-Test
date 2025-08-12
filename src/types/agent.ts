@@ -24,6 +24,8 @@ export interface AgentResponse {
   conversationId: string;
   metadata?: {
     duration?: number;
+    startTime?: string;
+    endTime?: string;
     tokens?: number;
     model?: string;
     error?: boolean | string;
